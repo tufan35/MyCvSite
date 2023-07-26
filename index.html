@@ -1,106 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kişisel CV</title>
+    <title>Yazılım Geliştirici CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
         }
-
         header {
-            background-color: #333;
+            background-color: #007BFF;
             color: #fff;
             text-align: center;
-            padding: 1rem 0;
+            padding: 2rem 0;
         }
-
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 2rem;
         }
-
-        h1 {
-            margin-bottom: 20px;
-        }
-
         h2 {
-            margin-bottom: 10px;
+            font-size: 2rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
         }
-
         p {
-            margin-bottom: 5px;
+            line-height: 1.6;
         }
-
-        ul {
-            margin: 0;
-            padding: 0;
+        .skills {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+            padding: 1rem 0;
+            border-top: 1px solid #ddd;
         }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
+        .skills p {
+            flex-basis: 30%;
         }
     </style>
 </head>
-
 <body>
     <header>
-        <h1>Kişisel CV</h1>
+        <h1>Yazılım Geliştirici</h1>
     </header>
-
     <div class="container">
-        <h2>Adınız Soyadınız</h2>
-        <p>Email: mail@example.com</p>
-        <p>Telefon: (123) 456-7890</p>
-
         <h2>Hakkımda</h2>
-        <p>
-            Buraya kendinizle ilgili kısa bir açıklama yazabilirsiniz. Yeteneklerinizden, ilgi alanlarınızdan ve
-            hedeflerinizden bahsedebilirsiniz.
-        </p>
+        <p>Merhaba! Ben [Adınız Soyadınız]. Yazılım geliştirme tutkusu olan bir yazılım geliştiriciyim. Profesyonel yazılım geliştirme deneyimim ve bilgi birikimimle, yeni projelerde aktif olarak yer almak ve katkıda bulunmak için buradayım.</p>
+
+        <h2>Yeteneklerim</h2>
+        <div class="skills">
+            <p>Front-end</p>
+            <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        <div class="skills">
+            <p>Back-end</p>
+            <p>Node.js, Express, MongoDB</p>
+        </div>
+        <div class="skills">
+            <p>Veritabanları</p>
+            <p>MySQL, PostgreSQL</p>
+        </div>
+        <div class="skills">
+            <p>Diğer</p>
+            <p>Git, RESTful API, Agile/Scrum</p>
+        </div>
 
         <h2>Eğitim</h2>
-        <ul>
-            <li>Mezuniyet Yılı: Üniversite Adı, Bölüm</li>
-            <li>Mezuniyet Yılı: Lise Adı</li>
-        </ul>
+        <p>Lisans: [Lisans Üniversitesi] - Bilgisayar Mühendisliği, [Mezuniyet Yılı]</p>
 
-        <h2>Deneyim</h2>
-        <ul>
-            <li>Çalışma Yılı: Şirket Adı, Pozisyon</li>
-            <li>Çalışma Yılı: Şirket Adı, Pozisyon</li>
-        </ul>
+        <h2>İş Deneyimi</h2>
+        <p>[Şirket Adı] - Yazılım Geliştirici, [Başlangıç Yılı] - [Bitiş Yılı]</p>
+        <p>Proje yönetimi ve geliştirme süreçlerine katkı sağlama</p>
+        <p>Front-end ve back-end geliştirme</p>
+        <p>Veritabanı tasarımı ve yönetimi</p>
 
-        <h2>Yetenekler</h2>
-        <ul>
-            <li>Yetenek 1</li>
-            <li>Yetenek 2</li>
-            <li>Yetenek 3</li>
-        </ul>
+        <h2>Proje Örnekleri</h2>
+        <p>[Proje Adı] - [Açıklama]</p>
+        <p>[Proje Adı] - [Açıklama]</p>
 
-        <h2>Proje</h2>
-        <p>
-            Buraya kendi projelerinizden ve çalışmalarınızdan bahsedebilirsiniz.
-        </p>
+        <h2>İletişim</h2>
+        <p>Email: [Email Adresiniz]</p>
+        <p>LinkedIn: [LinkedIn Profil URL'niz]</p>
+        <p>GitHub: [GitHub Profil URL'niz]</p>
     </div>
-
-    <footer>
-        <p>Telif Hakkı © 2023 Kişisel CV</p>
-    </footer>
 </body>
-
 </html>
