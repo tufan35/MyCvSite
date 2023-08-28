@@ -1,95 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yazılım Geliştirici CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 2rem 0;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        h2 {
-            font-size: 2rem;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 1rem;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .skills {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 1rem;
-            padding: 1rem 0;
-            border-top: 1px solid #ddd;
-        }
-        .skills p {
-            flex-basis: 30%;
-        }
-    </style>
+    <title>Software Developer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Software Developer">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'TUFAN';
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <h1>Yazılım Geliştirici</h1>
-    </header>
-    <div class="container">
-        <h2>Hakkımda</h2>
-        <p>Merhaba! Ben [Adınız Soyadınız]. Yazılım geliştirme tutkusu olan bir yazılım geliştiriciyim. Profesyonel yazılım geliştirme deneyimim ve bilgi birikimimle, yeni projelerde aktif olarak yer almak ve katkıda bulunmak için buradayım.</p>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">TUFAN</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#educations">Educations</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
 
-        <h2>Yeteneklerim</h2>
-        <div class="skills">
-            <p>Front-end</p>
-            <p>HTML, CSS, JavaScript, React</p>
-        </div>
-        <div class="skills">
-            <p>Back-end</p>
-            <p>Node.js, Express, MongoDB</p>
-        </div>
-        <div class="skills">
-            <p>Veritabanları</p>
-            <p>MySQL, PostgreSQL</p>
-        </div>
-        <div class="skills">
-            <p>Diğer</p>
-            <p>Git, RESTful API, Agile/Scrum</p>
-        </div>
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Tufan ÇEVİK</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/profil.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed"></span></h1>
+				</div>
+				<p>With 2 years of experience in software development within the .NET Core domain, I offer a creative and collaborative approach that elevates team synergy. I possess the ability to communicate technical terminology in a comprehensible manner, enabling effective communication with colleagues from diverse backgrounds. This proficiency allows me to contribute to the success of projects and confidently implement novel ideas, showcasing my commitment to fostering effective teamwork and embracing innovation.	</p>
+			</div>
+		</div>
+	</div>
 
-        <h2>Eğitim</h2>
-        <p>Lisans: [Lisans Üniversitesi] - Bilgisayar Mühendisliği, [Mezuniyet Yılı]</p>
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>02/2021 - </li>
+				<li><a href="https://www.mikro-grup.com.tr" target="_blank">MikroGrup Company</a></li>
+				<li>Software Developer</li>
+				<li><b>Microservices Expert and Distributed Systems:</b> I craft microservices that bring high-traffic services together, ensuring efficient communication. My role enhances service performance and designs scalable frameworks to accommodate growth.</li>
+				<li><b>Payment Infrastructure and Data Integration Proficiency:</b>I develop payment infrastructure services that bridge busy services in projects. Concurrently, I streamline data exchange across projects, simplifying complex integration tasks.</li>
+			</ul>
+			<ul class="work-list">
+				<li>01/2021 - 02/2021 </li>
+				<li><a href="https://dincerteknoloji.com.tr" target="_blank">Dincer Technology </a></li>
+				<li>Software Developer</li>
+			</ul>
+			<ul class="work-list">
+				<li>10/2020 - 10/2022</li>
+				<li><a href="https://www.kaist.ac.kr/en" target="_blank">KAIST</a></li>
+				<li>Artificial Intelligence Researcher</li>
+				<li>AI Electricity Generation Competition of Korea East West Power</li>
+			</ul>
+			<ul class="work-list">
+				<li>10/2019 - 10/2020</li>
+				<li><a href="https://www.unipa.com.tr" target="_blank">Unipa</a></li>
+				<li>Business Analyst</li>
+				<li> Using software development processes (Requirement Determination, Design, Coding, Testing) and project management methodologies.</li>
+			</ul>
+		</div>
+	</div>
 
-        <h2>İş Deneyimi</h2>
-        <p>[Şirket Adı] - Yazılım Geliştirici, [Başlangıç Yılı] - [Bitiş Yılı]</p>
-        <p>Proje yönetimi ve geliştirme süreçlerine katkı sağlama</p>
-        <p>Front-end ve back-end geliştirme</p>
-        <p>Veritabanı tasarımı ve yönetimi</p>
+	<!-- Award & Achievements -->
+	<div class="award section second" id="educations">
+		<div class="container">
+			<h1>EDUCATION</h1>
+			<ul class="award-list list-flat">
+				<li>2019-2021</li>
+				<li>Anadolu University</li>
+				<li>Master Degree - Data Analytics</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2012 - 2018</li>
+				<li>Dokuz Eylul University</li>
+				<li>Bacheolor Degree - Statistics</li>
+				
+			</ul>
+		</div>
+	</div>
 
-        <h2>Proje Örnekleri</h2>
-        <p>[Proje Adı] - [Açıklama]</p>
-        <p>[Proje Adı] - [Açıklama]</p>
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / SASS / Javascript / Angular</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / MongoDB / MsSql / PostreSql / Redis</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>.Net Core / C# / Nodejs / TypeScript / Graphql </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Other Tech</li>
+				<li> RabbitMq / DDD / Docker / Lınux</li>
+			</ul>
+		</div>
+	</div>
 
-        <h2>İletişim</h2>
-        <p>Email: [Email Adresiniz]</p>
-        <p>LinkedIn: [LinkedIn Profil URL'niz]</p>
-        <p>GitHub: [GitHub Profil URL'niz]</p>
-    </div>
+
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Connect</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:tufancevikk@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/kodla_gel"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://github.com/tufan35"><i class="fa fa-github"></i></a></li>
+						
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["far northern sky", "your galaxy", "everywhere"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </body>
 </html>
